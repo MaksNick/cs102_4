@@ -73,7 +73,6 @@ def bin_tree_maze(
     # 3. перейти в следующую клетку, сносим между клетками стену
     # 4. повторять 2-3 до тех пор, пока не будут пройдены все клетки
 
-
 def get_exits(grid: List[List[Union[str, int]]]) -> List[Tuple[int, int]]:
     """
 
